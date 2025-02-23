@@ -1,0 +1,242 @@
+html code
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 3</title>
+        <link rel="stylesheet" href="project3style.css">
+    </head>
+    <body>
+        <div class="img1">
+            <h1 class="heading">DATANEX UNIVERSE</h1>
+        </div>
+        <div class="details">
+            <h2 class="head2">About</h2>
+            <p>
+                Data science is an interdisciplinary field focused on extracting knowledge from typically 
+                large data sets and applying the knowledge from that data to solve problems in other application domains. 
+                The field encompasses preparing data for analysis, formulating data science problems, analyzing data,
+                and summarizing these findings. As such, it incorporates skills from computer science, mathematics,
+                data visualization, graphic design, communication, and business.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum voluptas modi, sed eveniet, 
+                doloribus voluptatem magni nemo nihil sapiente quas adipisci corrupti odio libero atque ullam deleniti eligendi in itaque.
+                Est maxime molestiae blanditiis nisi ipsam nobis accusantium ipsa, beatae provident aut
+                 similique officiis culpa dolorum. Odio, mollitia incidunt dolore amet, tempore qui dicta vitae corporis cum nesciunt illum veniam.
+            </p>
+        </div>
+
+       <div class="img2">
+        <h3>co-ordinatories list</h3>
+        <ul>
+            <li>arif</li>
+            <li>manmadha</li>
+            <li>venkatesh</li>
+            <li>narshima</li>
+            <li>kotesh</li>
+            <li>bhanu</li>
+            <li>mohan sai</li>
+        </ul>
+       </div>
+
+       <div class="faulty">
+        FAULTY LIST
+       </div>
+
+       <div class="container">
+            <div class="cards">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.vS0hnvg05rmzzKcjoMAafAHaE8&pid=Api&P=0&h=220" alt="image1">
+                <div class="card-content">
+                    <span>Gokul dev</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis sint reiciendis, esse eveniet
+                        repellendus distinctio magni alias consequuntur dolores perspiciatis itaque odio porro provident a hic, quo voluptates deleniti aspernatur.</p>
+                    <button type="submit">reply</button>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.vS0hnvg05rmzzKcjoMAafAHaE8&pid=Api&P=0&h=220" alt="image1">
+                <div class="card-content">
+                    <span>Anurekha</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis sint reiciendis, esse eveniet
+                        repellendus distinctio magni alias consequuntur dolores perspiciatis itaque odio porro provident a hic, quo voluptates deleniti aspernatur.</p>
+                    <button type="submit">reply</button>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.vS0hnvg05rmzzKcjoMAafAHaE8&pid=Api&P=0&h=220" alt="image1">
+                <div class="card-content">
+                    <span>Karthikeya</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis sint reiciendis, esse eveniet
+                        repellendus distinctio magni alias consequuntur dolores perspiciatis itaque odio porro provident a hic, quo voluptates deleniti aspernatur.</p>
+                    <button type="submit">reply</button>
+                </div>
+            </div>
+        
+        </div>
+    </body>
+</html>
+
+css code
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.img1 {
+    background-image: url(https://w0.peakpx.com/wallpaper/309/44/HD-wallpaper-how-does-data-science-help-an-enterprise.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 6px 6px 8px black;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: black;
+    transition: color 2s ease;
+    margin-left: -1000px;
+}
+
+h1:hover {
+    color: red;
+}
+
+.details {
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.details h2 {
+    margin-bottom: 10px; /* Reduced space below h2 */
+    font-size: 1.5rem;
+}
+
+.details p {
+    margin-top: 10px; /* Reduced space above paragraph */
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.5;
+    height: 200px;
+}
+
+.img2 {
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.qPCItcMBgEzizghD3XZMAQHaEK&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: 6px 6px 8px black;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: normal;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: black;
+    transition: color 2s ease;
+    margin-left: -1070px;
+    margin-bottom: 400px;
+    transition: color 1s ease-in-out;
+
+}
+
+h3:hover{
+    color: red;
+}
+
+li{
+    margin-bottom: 4px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -600px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+   /* box-shadow: 3px 3px 6px black;*/
+    
+}
+
+li:hover{
+    color: white;
+    box-shadow: 3px 3px 6px black;
+}
+
+.container{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.Ch11bEfqJHXMu72zi8NJTAHaEK&pid=Api&P=0&h=220);
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    box-shadow: 4px 4px 6px black;
+    background-color: blueviolet;
+}
+
+.cards{
+    
+    padding: 40px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: white;
+    height: -20px;
+    transition: 0.2s ease-in;
+
+}
+
+.cards:hover{
+    box-shadow: 8px 8px 10px rgb(212, 27, 27);
+}
+
+.card-content{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.faulty{
+    padding: 30px;
+    font-size: 30px;
+}
+
+span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+    transition: color 1s ease-in;
+}
+
+span:hover{
+    color: red;
+}
+
+button{
+    margin-left: 50px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+button:hover{
+    box-shadow: 2px 2px 4px black;
+}
